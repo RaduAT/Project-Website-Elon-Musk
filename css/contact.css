@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------
+# Generale
+--------------------------------------------------------------*/
+
+html,
+body,
+header,
+.view {
+	height: 100%;
+}
+
+html,
+body,
+header,
+.view {
+	height: 100%;
+}
+
+@media (max-width: 740px) {
+	html,
+	body,
+	header,
+	.view {
+		height: 1000px;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+	html,
+	body,
+	header,
+	.view {
+		height: 650px;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar-brand {
+	letter-spacing: 3px;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.navbar-scroll {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+	background-color: #1c2331;
+	opacity: 0.85;
+}
+
+#audio-button {
+	border: 0;
+	background: none;
+	color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Formular
+--------------------------------------------------------------*/
+
+.intro {
+	height: 100%;
+}
+
+.gradient-custom {
+	background: linear-gradient(rgb(26, 118, 240), #3f51b5);
+}
+
+#button-submit {
+	background-color: #3f51b5;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer-social {
+	background-color: #3f51b5;
+}
+
+#social-button-facebook {
+	background-color: #3b5998;
+}
+
+#social-button-youtube {
+	background-color: #ed302f;
+}
+
+#social-button-instagram {
+	background-color: #ac2bac;
+}
+
+#social-button-twitter {
+	background-color: #55acee;
+}
+
+#footer-background {
+	background-color: #1c2331;
+}
+
+#footer-line-under-title {
+	width: 60px;
+	background-color: #00bcd4;
+	height: 2px;
+}
+
+#copyright {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+	right: 15px;
+	bottom: 15px;
+	z-index: 996;
+	background: #3f51b5;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	transition: all 0.4s;
+}
+
+.back-to-top i {
+	font-size: 28px;
+	color: #fff;
+	line-height: 0;
+}
+
+.back-to-top:hover {
+	background: #3f51b5;
+	color: #fff;
+}
+
+.back-to-top.active {
+	visibility: visible;
+	opacity: 1;
+}

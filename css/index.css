@@ -1,0 +1,267 @@
+/*--------------------------------------------------------------
+# Alerta
+--------------------------------------------------------------*/
+
+.modal {
+	display: block;
+	position: fixed;
+	padding-top: 200px;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20, 20, 20, 0.7);
+}
+
+.modalcont {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	width: 40%;
+	border: 0px solid;
+	border-radius: 10px;
+	margin: auto;
+	background: linear-gradient(#304FFE, #536DFE);
+}
+
+@keyframes fadeout {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar-brand {
+	letter-spacing: 3px;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.navbar-scroll {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+	background-color: #1c2331;
+	opacity: 0.85;
+}
+
+#audio-button {
+	border: 0;
+	background: none;
+	color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Photo Intro
+--------------------------------------------------------------*/
+
+#photo-title {
+	letter-spacing: 22px;
+	text-shadow: 4px 4px #3F51B5;
+}
+
+#intro-photo {
+	background-image: url('https://i.imgur.com/QdWX3ga.jpg');
+	height: 100vh;
+}
+
+@media (max-width: 450px) {
+	#intro {
+		height: 950px !important;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+	#intro {
+		height: 1100px !important;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 990px) {
+	#intro {
+		height: 600px !important;
+	}
+}
+
+.display-1 {
+	font-weight: 500 !important;
+	letter-spacing: 40px;
+}
+
+@media (min-width: 1600px) {
+	.display-1 {
+		font-size: 10rem;
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Poza OverLap
+--------------------------------------------------------------*/
+
+.page-section {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.section-heading .section-heading-lower {
+	display: block;
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+.overlap {
+	position: relative;
+}
+
+.overlap .overlap-img {
+	width: 75%;
+	float: right;
+}
+
+.overlap .overlap-text {
+	left: 0;
+	width: 60%;
+	margin-top: 3rem;
+	position: absolute;
+}
+
+.overlap .overlap-text .overlap-button {
+	width: 100%;
+	left: 0;
+	position: absolute;
+	bottom: -2rem;
+}
+
+@media min-width1200px {
+	.overlap .overlap-text {
+		width: 45%;
+	}
+}
+
+.bg-faded {
+	background-color: rgba(255, 255, 255, .85);
+}
+
+.text-center {
+	text-align: center!important;
+}
+
+.p-5 {
+	padding: 3rem!important;
+}
+
+.rounded {
+	border-radius: .25rem!important;
+}
+
+*,
+ ::after,
+ ::before {
+	box-sizing: border-box;
+}
+
+#chenar {
+	-webkit-box-shadow: 10px 10px 183px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 183px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 183px -1px rgba(0, 0, 0, 0.75);
+}
+
+#pozachenar {
+	border-radius: 49px 49px 49px 49px;
+	-moz-border-radius: 49px 49px 49px 49px;
+	-webkit-border-radius: 49px 49px 49px 49px;
+	border: 0px solid #000000;
+	-webkit-box-shadow: 10px 10px 68px -9px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 68px -9px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 68px -9px rgba(0, 0, 0, 0.75);
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer-social {
+	background-color: #3F51B5;
+}
+
+#social-button-facebook {
+	background-color: #3b5998;
+}
+
+#social-button-youtube {
+	background-color: #ed302f;
+}
+
+#social-button-instagram {
+	background-color: #ac2bac;
+}
+
+#social-button-twitter {
+	background-color: #55acee;
+}
+
+#footer-background {
+	background-color: #1c2331;
+}
+
+#footer-line-under-title {
+	width: 60px;
+	background-color: #00BCD4;
+	height: 2px;
+}
+
+#copyright {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+	right: 15px;
+	bottom: 15px;
+	z-index: 996;
+	background: #3F51B5;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	transition: all 0.4s;
+}
+
+.back-to-top i {
+	font-size: 28px;
+	color: #fff;
+	line-height: 0;
+}
+
+.back-to-top:hover {
+	background: #3F51B5;
+	color: #fff;
+}
+
+.back-to-top.active {
+	visibility: visible;
+	opacity: 1;
+}

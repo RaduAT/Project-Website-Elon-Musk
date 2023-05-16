@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar-brand {
+	letter-spacing: 3px;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.navbar-scroll {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+	background-color: #1c2331;
+	opacity: 0.85;
+}
+
+#audio-button {
+	border: 0;
+	background: none;
+	color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# News Intro
+--------------------------------------------------------------*/
+
+#news_intro {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* Background */
+	background: linear-gradient(-45deg, #0097A7, #0277BD, #3F51B5, #7E57C2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#text_intro {
+	color: white;
+	text-shadow: 6px 6px 6px #000000;
+}
+
+
+/*--------------------------------------------------------------
+# Stiri Mici
+--------------------------------------------------------------*/
+
+#poza_dreapta {
+	border-radius: 15px;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer-social {
+	background-color: #3F51B5;
+}
+
+#social-button-facebook {
+	background-color: #3b5998;
+}
+
+#social-button-youtube {
+	background-color: #ed302f;
+}
+
+#social-button-instagram {
+	background-color: #ac2bac;
+}
+
+#social-button-twitter {
+	background-color: #55acee;
+}
+
+#footer-background {
+	background-color: #1c2331;
+}
+
+#footer-line-under-title {
+	width: 60px;
+	background-color: #00BCD4;
+	height: 2px;
+}
+
+#copyright {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+	right: 15px;
+	bottom: 15px;
+	z-index: 996;
+	background: #3F51B5;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	transition: all 0.4s;
+}
+
+.back-to-top i {
+	font-size: 28px;
+	color: #fff;
+	line-height: 0;
+}
+
+.back-to-top:hover {
+	background: #3F51B5;
+	color: #fff;
+}
+
+.back-to-top.active {
+	visibility: visible;
+	opacity: 1;
+}

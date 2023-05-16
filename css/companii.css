@@ -1,0 +1,236 @@
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar-brand {
+	letter-spacing: 3px;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.navbar-scroll .navbar-brand,
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.navbar-scroll {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3);
+	background-color: #1c2331;
+	opacity: 0.85;
+}
+
+#audio-button {
+	border: 0;
+	background: none;
+	color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# News Intro
+--------------------------------------------------------------*/
+
+#news_intro {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* Background */
+	background: linear-gradient(-45deg, #00E676, #69F0AE, #64FFDA, #18FFFF);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#text_intro {
+	color: white;
+	text-shadow: 6px 6px 6px #000000;
+}
+
+
+/*--------------------------------------------------------------
+# Prezentare Companii
+--------------------------------------------------------------*/
+
+.w-200 {
+	width: 200px;
+}
+
+#logo_shadow {
+	box-shadow: 2px 6px 35px 8px rgba(0, 0, 0, 0.73);
+}
+
+
+/*--------------------------------------------------------------
+# Prezentare Firme + Citate
+--------------------------------------------------------------*/
+
+#prezentare_tesla {
+	border-radius: 5px 10px 15px 20px;
+	/* top left, top right, bottom right, bottom left */
+	box-shadow: 2px 6px 35px 8px rgba(0, 0, 0, 0.24);
+}
+
+#prezentare_spacex {
+	border-radius: 5px 10px 15px 20px;
+	/* top left, top right, bottom right, bottom left */
+	box-shadow: 2px 6px 35px 8px rgba(0, 0, 0, 0.24);
+}
+
+#prezentare_neuralink {
+	border-radius: 5px 10px 15px 20px;
+	/* top left, top right, bottom right, bottom left */
+	box-shadow: 2px 6px 35px 8px rgba(0, 0, 0, 0.24);
+}
+
+
+#photo_companie_neuralink{
+
+	-webkit-box-shadow: 5px 5px 40px 5px rgba(0,0,0,0.68); 
+	box-shadow: 5px 5px 40px 5px rgba(0,0,0,0.68);
+
+}
+
+/*--------------------------------------------------------------
+# Citat
+--------------------------------------------------------------*/
+
+.streak.streak-photo {
+	background-image: url("https://i.imgur.com/dNZ1UKM.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.streak.streak-md {
+	height: 400px;
+}
+
+.streak {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height: 250px;
+}
+
+.hm-teal-strong-2 .full-bg-img,
+.hm-teal-strong-2 .mask {
+	background-color: rgba(0, 150, 136, .6);
+}
+
+.mask {
+	background-attachment: fixed;
+}
+
+.h2-responsive,
+.section-blog-fw h2 {
+	font-size: 145%;
+}
+
+.mb-5 {
+	margin-bottom: 3rem!important;
+}
+
+.flex-center {
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	height: 100%;
+}
+
+#citat-alb {
+	color: #fff !important;
+}
+
+.font-italic {
+	font-style: italic;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer-social {
+	background-color: #3F51B5;
+}
+
+#social-button-facebook {
+	background-color: #3b5998;
+}
+
+#social-button-youtube {
+	background-color: #ed302f;
+}
+
+#social-button-instagram {
+	background-color: #ac2bac;
+}
+
+#social-button-twitter {
+	background-color: #55acee;
+}
+
+#footer-background {
+	background-color: #1c2331;
+}
+
+#footer-line-under-title {
+	width: 60px;
+	background-color: #00BCD4;
+	height: 2px;
+}
+
+#copyright {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+.back-to-top {
+	position: fixed;
+	visibility: hidden;
+	opacity: 0;
+	right: 15px;
+	bottom: 15px;
+	z-index: 996;
+	background: #3F51B5;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	transition: all 0.4s;
+}
+
+.back-to-top i {
+	font-size: 28px;
+	color: #fff;
+	line-height: 0;
+}
+
+.back-to-top:hover {
+	background: #3F51B5;
+	color: #fff;
+}
+
+.back-to-top.active {
+	visibility: visible;
+	opacity: 1;
+}
