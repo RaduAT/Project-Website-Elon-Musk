@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <title>Elon Musk - Proiect Servicii Internet</title>
+      <!-- Project Icon -->
+      <link rel="icon" href="img/Rocket.png" type="image/x-icon" />
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+      <!-- Google Fonts Roboto -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+      <!-- MDB -->
+      <link rel="stylesheet" href="css/mdb.min.css" />
+      <!-- CSS-->
+      <link rel="stylesheet" href="css/index.css" />
+   </head>
+   <body>
+      <!-- Alerta -->
+      <div id="alerta" class="modal" onclick="delModal()">
+         <div class="modalcont">
+            Bine ati venit pe site-ul pentru proiect.<br />
+            <p style="font-size: 18px;">Radu Alexandru Theodor - 413A</p>
+         </div>
+      </div>
+      <!-- Navbar + Photo Intro -->
+      <header>
+         <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="index.html">Elon Musk</a>
+               <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fas fa-bars"></i>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="viata.html">Viata</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="companii.html">Companii</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+                  <ul class="navbar-nav d-flex flex-row">
+                     <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="MG.html">
+                        <i class="fas fa-gift"></i>
+                        </a>
+                     </li>
+                     <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://twitter.com/elonmusk">
+                        <i class="fab fa-twitter"></i>
+                        </a>
+                     </li>
+                     <li class="nav-item me-3 me-lg-0">
+                        <a class="nav-link" href="https://www.instagram.com/spacex/">
+                        <i class="fab fa-instagram"></i>
+                        </a>
+                     </li>
+                     <li class="nav-item me-3 me-lg-0">
+                        <audio id="myAudio">
+                           <source src="img/audio.mp3" type="audio/mpeg" />
+                        </audio>
+                        <a class="nav-link">
+                        <button id="audio-button" onclick="playAudio()" type="button"><i class="fas fa-volume-up"></i></button>
+                        <button id="audio-button" onclick="pauseAudio()" type="button"><i class="fas fa-volume-off"></i></button>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <!-- End of Navbar -->
+         <!--Section: Photo Intro-->
+         <section>
+            <div id="intro-photo" class="bg-image">
+               <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
+                  <div class="container d-flex justify-content-center align-items-center h-100">
+                     <div class="row align-items-center">
+                        <div class="col-12">
+                           <h1 id="photo-title" class="mb-0 text-white display-1">Elon Musk</h1>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!--End of Section: Photo Intro-->
+      </header>
+      <!--End of Navbar + Photo Intro -->
+      <!--Main layout-->
+      <main class="mt-5">
+         <div class="container">
+            <!--Section: Content-->
+            <section>
+               <div class="row">
+                  <div class="col-md-6 gx-5 mb-4">
+                     <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+                        <img src="https://i.imgur.com/z1Mog0I.jpg" class="img-fluid" />
+                        <a href="#!">
+                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-6 gx-5 mb-4">
+                     <h4><strong>Cine este Elon Musk?</strong></h4>
+                     <p class="text-muted">
+                        Musk este fondatorul, directorul general și inginerul șef al SpaceX, co-fondator, director executiv și arhitect de produs al Tesla Inc., fondatorul The Boring Company, co-fondator al Neuralink  și co-fondator și inițial co-președinte al consiluilui de administrație al OpenAI.
+                     </p>
+                     <p class="text-muted">
+                        Este cetățean al Africii de Sud, al Statelor Unite (unde a trăit în cea mai mare parte a vieții și trăiește în prezent) și Canada.
+                     </p>
+                  </div>
+               </div>
+            </section>
+            <!--Section: Content-->
+            <hr class="my-5" />
+            <section class="page-section clearfix">
+               <div class="container">
+                  <div class="overlap">
+                     <img class="overlap-img img-fluid mb-3 mb-lg-0 rounded" src="https://i.imgur.com/zZSPDYe.jpg" id="pozachenar" />
+                     <div class="overlap-text left-0 text-center bg-faded p-5 rounded" id="chenar">
+                        <h2 class="section-heading mb-4">
+                           <span class="section-heading-lower"><strong>Obiectivele acestuia</strong> pentru urmatorii ani sunt:</span>
+                        </h2>
+                        <div>
+                           <ul class="list-group">
+                              <li class="list-group-item">Omenirea sa colonizeze alte planete</li>
+                              <li class="list-group-item">Oamenii sa ajunga pe marte</li>
+                              <li class="list-group-item">Construirea de noi fabrici pentru masini electrice</li>
+                              <li class="list-group-item">Tesla pickup trucks</li>
+                              <li class="list-group-item">Interfețe Computer-Creier</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <hr class="my-5" />
+            <!--Section: Content-->
+            <section class="text-center">
+               <h4 class="mb-5"><strong>Ce veti afla de pe aceasta pagina?</strong></h4>
+               <div class="row">
+                  <div class="col-lg-4 col-md-12 mb-4">
+                     <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                           <img src="https://i.imgur.com/78gcMGV.jpg" class="img-fluid" />
+                           <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                           </a>
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title">Despre viata lui.</h5>
+                           <a href="viata.html" class="btn btn-primary">Vizualizeaza</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                           <img src="https://i.imgur.com/Qt2gpwP.jpg" class="img-fluid" />
+                           <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                           </a>
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title">In ce companii este implicat.</h5>
+                           <a href="companii.html" class="btn btn-primary">Vizualizeaza</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                           <img src="https://i.imgur.com/EX70CvS.jpg" class="img-fluid" />
+                           <a href="#!">
+                              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                           </a>
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title">Stiri si noutati.</h5>
+                           <a href="news.html" class="btn btn-primary">Vizualizeaza</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </main>
+      <!--Section: Content-->
+      <!--End of Main layout-->
+      <!-- Footer -->
+      <footer id="footer-background" class="text-center text-lg-start text-white">
+         <!-- Section: Social media -->
+         <section id="footer-social" class="d-flex justify-content-between p-4">
+            <div class="container d-flex justify-content-center">
+               <a href="https://www.facebook.com/spacenewsx/" id="social-button-facebook" type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+               <i class="fab fa-facebook-f"></i>
+               </a>
+               <a href="https://www.youtube.com/user/spacexchannel" id="social-button-youtube" type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+               <i class="fab fa-youtube"></i>
+               </a>
+               <a href="https://www.instagram.com/spacex/" id="social-button-instagram" type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+               <i class="fab fa-instagram"></i>
+               </a>
+               <a href="https://twitter.com/elonmusk" id="social-button-4" type="button" class="btn btn-primary btn-lg btn-floating mx-2">
+               <i class="fab fa-twitter"></i>
+               </a>
+            </div>
+         </section>
+         <!-- Section: Social media -->
+         <!-- Section: Links  -->
+         <section class="">
+            <div class="container text-center text-md-start mt-5">
+               <!-- Grid row -->
+               <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                     <!-- Content -->
+                     <h6 class="text-uppercase fw-bold">Proiect Servicii Internet</h6>
+                     <hr id="footer-line-under-title" class="mb-4 mt-0 d-inline-block mx-auto" />
+                     <p>
+                        Acesta este proiectul pentru Tema de Casa. Daca aveti intrebari nu ezitati sa mi le puneti.
+                     </p>
+                  </div>
+                  <!-- Grid column -->
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <!-- Links -->
+                     <h6 class="text-uppercase fw-bold">Resurse Folosite</h6>
+                     <hr id="footer-line-under-title" class="mb-4 mt-0 d-inline-block mx-auto" />
+                     <p>
+                        <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>
+                     </p>
+                     <p>
+                        <a href="https://mdbootstrap.com/" class="text-white">MDBootstrap</a>
+                     </p>
+                     <p>
+                        <a href="https://www.w3schools.com/" class="text-white">W3Schools</a>
+                     </p>
+                  </div>
+                  <!-- Grid column -->
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                     <!-- Links -->
+                     <h6 class="text-uppercase fw-bold">Linkuri Utile</h6>
+                     <hr id="footer-line-under-title" class="mb-4 mt-0 d-inline-block mx-auto" />
+                     <p>
+                        <a href="https://www.tesla.com/" class="text-white">Tesla</a>
+                     </p>
+                     <p>
+                        <a href="https://www.spacex.com/" class="text-white">SpaceX</a>
+                     </p>
+                     <p>
+                        <a href="https://www.starlink.com/" class="text-white">Starlink</a>
+                     </p>
+                  </div>
+                  <!-- Grid column -->
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                     <!-- Links -->
+                     <h6 class="text-uppercase fw-bold">Contact</h6>
+                     <hr id="footer-line-under-title" class="mb-4 mt-0 d-inline-block mx-auto" />
+                     <p><i class="fas fa-home mr-4"></i> Ploiesti, Romania</p>
+                     <p><i class="fas fa-envelope mr-4"></i> alexandru.radu1406@stud.etti.upb.ro</p>
+                     <p><i class="fas fa-phone mr-4"></i> 0762234444</p>
+                  </div>
+                  <!-- Grid column -->
+               </div>
+               <!-- Grid row -->
+            </div>
+         </section>
+         <!-- Section: Links  -->
+         <!-- Copyright -->
+         <div id="copyright" class="text-center p-3">
+            © 2021 Copyright:
+            <a class="text-white">Radu Alexandru Theodor</a>
+         </div>
+         <!-- Copyright -->
+      </footer>
+      <!-- End of Footer -->
+      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-angle-double-up"></i></a>
+      <!-- Final-->
+      <!-- Scripturi -->
+      <!-- MDB -->
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+      <!-- Custom scripts -->
+      <script type="text/javascript" src="js/index.js"></script>
+   </body>
+</html>
